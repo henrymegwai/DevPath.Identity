@@ -1,0 +1,50 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31321.278
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlinkCash.Identity", "BlinkCash.Identity\BlinkCash.Identity.csproj", "{D74AF95C-64B1-429D-BA13-348DB164953E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SharedProject", "SharedProject", "{17BEAF56-ECC7-48C3-BD1D-B1C8F6402004}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlinkCash.Core", "BlinkCash.Core\BlinkCash.Core.csproj", "{4BD0102B-BAAA-4BC2-BF43-041CE7338185}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlinkCash.Data", "BlinkCash.Data\BlinkCash.Data.csproj", "{C68F73E1-531A-40AE-8E2A-1150FA9A6BAD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlinkCash.Infrastructure", "BlinkCash.Infrastructure\BlinkCash.Infrastructure.csproj", "{910A9F09-B9F1-4AEB-BDD0-85CC85ED6CD6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D74AF95C-64B1-429D-BA13-348DB164953E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D74AF95C-64B1-429D-BA13-348DB164953E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D74AF95C-64B1-429D-BA13-348DB164953E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D74AF95C-64B1-429D-BA13-348DB164953E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4BD0102B-BAAA-4BC2-BF43-041CE7338185}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4BD0102B-BAAA-4BC2-BF43-041CE7338185}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4BD0102B-BAAA-4BC2-BF43-041CE7338185}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4BD0102B-BAAA-4BC2-BF43-041CE7338185}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C68F73E1-531A-40AE-8E2A-1150FA9A6BAD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C68F73E1-531A-40AE-8E2A-1150FA9A6BAD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C68F73E1-531A-40AE-8E2A-1150FA9A6BAD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C68F73E1-531A-40AE-8E2A-1150FA9A6BAD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{910A9F09-B9F1-4AEB-BDD0-85CC85ED6CD6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{910A9F09-B9F1-4AEB-BDD0-85CC85ED6CD6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{910A9F09-B9F1-4AEB-BDD0-85CC85ED6CD6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{910A9F09-B9F1-4AEB-BDD0-85CC85ED6CD6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{4BD0102B-BAAA-4BC2-BF43-041CE7338185} = {17BEAF56-ECC7-48C3-BD1D-B1C8F6402004}
+		{C68F73E1-531A-40AE-8E2A-1150FA9A6BAD} = {17BEAF56-ECC7-48C3-BD1D-B1C8F6402004}
+		{910A9F09-B9F1-4AEB-BDD0-85CC85ED6CD6} = {17BEAF56-ECC7-48C3-BD1D-B1C8F6402004}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4FD7DAE0-0DB6-4EA7-A26C-F0096A8787A0}
+	EndGlobalSection
+EndGlobal
